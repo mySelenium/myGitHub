@@ -1,0 +1,14 @@
+<suite name = "PHP-Travels test">
+	<test name = "Hotel Test">
+		<parameter name = "city"  value = "Lond"/>
+		<parameter name = "checkIn" value = "22/06/2016"/>
+		<parameter name = "checkOut" value = "29/06/2016"/>
+		
+		<classes>
+			<class  name = "com.phptravels.hotelbooking.hotelBookingTest"/>
+				<include name = "test"/>
+		
+		</classes>
+	</test>
+
+</suite>

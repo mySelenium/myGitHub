@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PHP-Travels_test">
+              <span class="suite-name border-skipped">PHP-Travels test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PHP-Travels_test">
+                    <span>C:\Users\Timmy\Selenium_2\hotelsbooking\parameterTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PHP-Travels_test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PHP-Travels_test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PHP-Travels_test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PHP-Travels_test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PHP-Travels_test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PHP-Travels_test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  7 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PHP-Travels_test" class="hide-methods skipped suite-PHP-Travels_test"> (hide)</a> <!-- hide-methods skipped suite-PHP-Travels_test -->
+                      <a href="#" panel-name="suite-PHP-Travels_test" class="show-methods skipped suite-PHP-Travels_test"> (show)</a> <!-- show-methods skipped suite-PHP-Travels_test -->
+                    </span>
+                    <div class="method-list-content skipped suite-PHP-Travels_test">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="test(Lond, 22/06/2016, 29/06/2016)">test(Lond, 22/06/2016, 29/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(Islama, 25/06/2016, 28/06/2016)">testWithMultipleData(Islama, 25/06/2016, 28/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(Dub, 24/06/2016, 30/06/2016)">testWithMultipleData(Dub, 24/06/2016, 30/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(sing, 23/06/2016, 29/06/2016)">testWithMultipleData(sing, 23/06/2016, 29/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(Madin, 25/06/2016, 28/06/2016)">testWithMultipleData(Madin, 25/06/2016, 28/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(Manches, 25/06/2016, 28/06/2016)">testWithMultipleData(Manches, 25/06/2016, 28/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PHP-Travels_test" title="com.phptravels.hotelbooking.hotelBookingTest" hash-for-method="testWithMultipleData(Lond, 25/06/2016, 28/06/2016)">testWithMultipleData(Lond, 25/06/2016, 28/06/2016)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PHP-Travels_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PHP-Travels_test" class="panel PHP-Travels_test">
+          <div class="suite-PHP-Travels_test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.phptravels.hotelbooking.hotelBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Lond, 22/06/2016, 29/06/2016)">
+                  </a> <!-- test(Lond, 22/06/2016, 29/06/2016) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Lond, 22/06/2016, 29/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(Islama, 25/06/2016, 28/06/2016)">
+                  </a> <!-- testWithMultipleData(Islama, 25/06/2016, 28/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(Islama, 25/06/2016, 28/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(Dub, 24/06/2016, 30/06/2016)">
+                  </a> <!-- testWithMultipleData(Dub, 24/06/2016, 30/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(Dub, 24/06/2016, 30/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(sing, 23/06/2016, 29/06/2016)">
+                  </a> <!-- testWithMultipleData(sing, 23/06/2016, 29/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(sing, 23/06/2016, 29/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(Madin, 25/06/2016, 28/06/2016)">
+                  </a> <!-- testWithMultipleData(Madin, 25/06/2016, 28/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(Madin, 25/06/2016, 28/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(Manches, 25/06/2016, 28/06/2016)">
+                  </a> <!-- testWithMultipleData(Manches, 25/06/2016, 28/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(Manches, 25/06/2016, 28/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMultipleData(Lond, 25/06/2016, 28/06/2016)">
+                  </a> <!-- testWithMultipleData(Lond, 25/06/2016, 28/06/2016) -->
+                  <span class="method-name">testWithMultipleData</span>
+                  <span class="parameters">(Lond, 25/06/2016, 28/06/2016)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PHP-Travels_test-class-skipped -->
+        </div> <!-- panel PHP-Travels_test -->
+        <div panel-name="test-xml-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Timmy\Selenium_2\hotelsbooking\parameterTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PHP-Travels test&quot;&gt;
+  &lt;test name=&quot;Hotel Test&quot;&gt;
+    &lt;parameter name=&quot;checkIn&quot; value=&quot;22/06/2016&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Lond&quot;/&gt;
+    &lt;parameter name=&quot;checkOut&quot; value=&quot;29/06/2016&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phptravels.hotelbooking.hotelBookingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hotel Test --&gt;
+&lt;/suite&gt; &lt;!-- PHP-Travels test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PHP-Travels test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Hotel Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PHP-Travels test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PHP-Travels test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PHP-Travels_test');
+function tableData_PHP-Travels_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testWithMultipleData')
+data.setCell(0, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(0, 3, 11);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testWithMultipleData')
+data.setCell(2, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWithMultipleData')
+data.setCell(3, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWithMultipleData')
+data.setCell(4, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testWithMultipleData')
+data.setCell(5, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testWithMultipleData')
+data.setCell(6, 2, 'com.phptravels.hotelbooking.hotelBookingTest')
+data.setCell(6, 3, 2);
+window.suiteTableData['PHP-Travels_test']= { tableData: data, tableDiv: 'times-div-PHP-Travels_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 ms</span>
+              <div id="times-div-PHP-Travels_test">
+              </div> <!-- times-div-PHP-Travels_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PHP-Travels test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PHP-Travels_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phptravels.hotelbooking.hotelBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test(Lond, 22/06/2016, 29/06/2016)</span>
+                <span class="method-start">7021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(sing, 23/06/2016, 29/06/2016)</span>
+                <span class="method-start">7036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(Dub, 24/06/2016, 30/06/2016)</span>
+                <span class="method-start">7040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(Lond, 25/06/2016, 28/06/2016)</span>
+                <span class="method-start">7049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(Islama, 25/06/2016, 28/06/2016)</span>
+                <span class="method-start">7063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(Manches, 25/06/2016, 28/06/2016)</span>
+                <span class="method-start">7070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithMultipleData(Madin, 25/06/2016, 28/06/2016)</span>
+                <span class="method-start">7074 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
